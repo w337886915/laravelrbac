@@ -13,7 +13,9 @@
   ],
   "require": {
     "php": ">=7.0.0",
-    "laravel/framework": "~5.5"
+    "laravel/framework": "~5.5",
+    "spatie/laravel-permission": "^2.21"
+
   },
   "require-dev": {
     "phpunit/phpunit": "~6.0",
@@ -43,10 +45,8 @@
     "laravel": {
       "providers": [
         "w337886915\\rbac\\RbacServiceProvider"
-      ],
-      "aliases": {
-        "rbac": "w337886915\\rbac\\Facades\\rbac"
-      }
+      ]
+
 
     }
   }
